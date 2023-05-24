@@ -109,7 +109,7 @@ public class ChatGUI extends JFrame {
 
     }
 
-    private class MessageListener implements Runnable {
+    private class MessageListener implements Runnable { //klass som heter MessageListener som implementerar Runnable gränssnittet. Denna klassen är ansvarig för att lyssna på meddelanden som tas emot via en multicastSocket och uppdatera chatTextArea på skärmen.
 
         public void run() {
             try {
